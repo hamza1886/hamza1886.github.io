@@ -27,15 +27,11 @@ h6 {
 }
 
 @media screen {
-    .experience,
-    .education,
-    .extracurricular {
+    .experience {
         padding: 1em;
     }
 
-    .experience:hover,
-    .education:hover,
-    .extracurricular:hover {
+    .experience:hover {
         background-color: #f7fcfe;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
