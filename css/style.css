@@ -25,3 +25,18 @@ h5 {
 h6 {
     font-size: 0.75rem;
 }
+
+@media screen {
+    .experience,
+    .education,
+    .extracurricular {
+        padding: 1em;
+    }
+
+    .experience:hover,
+    .education:hover,
+    .extracurricular:hover {
+        background-color: #f7fcfe;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
