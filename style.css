@@ -18,6 +18,16 @@ main, section {
     gap: 1rem;
 }
 
+section {
+    flex-direction: column;
+}
+
+@media screen and (min-device-width: 768px) {
+    section {
+        flex-direction: row;
+    }
+}
+
 img {
     width: 100%;
 }
