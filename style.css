@@ -1,0 +1,23 @@
+:root {
+    --color-text: #2c3e50;
+    --color-background: #ffffff;
+}
+
+body {
+    color: var(--color-text);
+    background: var(--color-background);
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+main, section {
+    gap: 1rem;
+}
+
+img {
+    width: 100%;
+}
